@@ -1214,7 +1214,7 @@ st.dataframe(
 st.markdown(
     """
     <div class="table-note">
-        <strong>All data displayed in this dashboard is synthetic, randomly generated, and de-identified for demonstration purposes only. It does not represent actual athlete performance data.</strong>
+        <strong>All data displayed in this dashboard is synthetic, and randomly generated for demonstration purposes only. It does not represent actual athlete performance data.</strong>
         Current values are shown in bold.
         Values in parentheses show the previous 7-day value followed by
         the percentage change from the previous 7-day period.
