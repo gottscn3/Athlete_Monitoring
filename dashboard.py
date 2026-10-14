@@ -8,7 +8,7 @@ from main import build_athlete_summary
 # ---------------------------------------------------------
 
 st.set_page_config(
-    page_title="WSOC Athlete Monitoring",
+    page_title="Athlete Monitoring",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -201,10 +201,10 @@ st.markdown(
     """
     <div class="header">
         <div class="header-title">
-            WOMEN'S SOCCER
+            Athlete Monitoring
         </div>
         <div class="header-subtitle">
-            ATHLETE MONITORING • SPORTS PERFORMANCE
+            Load Management • Readiness
         </div>
     </div>
     """,
@@ -216,7 +216,7 @@ st.markdown(
 # FILE
 # ---------------------------------------------------------
 
-file_path = "WSOC OVR Jump Data Copy.xlsx"
+file_path = "Generic Data.xlsx"
 
 
 # ---------------------------------------------------------
@@ -1214,10 +1214,10 @@ st.dataframe(
 st.markdown(
     """
     <div class="table-note">
-        <strong>Current values are shown in bold.</strong>
+        <strong>All data displayed in this dashboard is synthetic, randomly generated, and de-identified for demonstration purposes only. It does not represent actual athlete performance data.</strong>
+        Current values are shown in bold.
         Values in parentheses show the previous 7-day value followed by
         the percentage change from the previous 7-day period.
-        CMJ date is shown beneath the latest jump height.
     </div>
     """,
     unsafe_allow_html=True
@@ -1231,7 +1231,7 @@ st.markdown(
 st.markdown(
     """
     <div class="footer">
-        Women's Soccer • Athlete Monitoring Dashboard
+        Athlete Monitoring Dashboard
     </div>
     """,
     unsafe_allow_html=True
