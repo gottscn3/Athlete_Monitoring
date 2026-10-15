@@ -201,7 +201,7 @@ st.markdown(
     """
     <div class="header">
         <div class="header-title">
-            Athlete Monitoring
+            Athlete Monitoring Dashboard (Synthetic Data)
         </div>
         <div class="header-subtitle">
             Load Management • Readiness
